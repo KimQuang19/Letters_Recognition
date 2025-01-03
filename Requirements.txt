@@ -1,0 +1,47 @@
+NumPy (np): Thư viện cho tính toán số học hiệu quả, chủ yếu sử dụng cho mảng (arrays) và ma trận.
+
+Cài đặt: import numpy as np
+Pandas (pd): Thư viện xử lý và phân tích dữ liệu, giúp làm việc với bảng dữ liệu (dataframes).
+
+Cài đặt: import pandas as pd
+OpenCV (cv2): Thư viện xử lý hình ảnh và video, cung cấp các công cụ để thao tác với ảnh.
+
+Cài đặt: import cv2
+OS: Thư viện làm việc với các hệ thống tệp tin và thư mục trên hệ điều hành.
+
+Cài đặt: import os
+string: Thư viện cung cấp các chức năng xử lý chuỗi, ví dụ như các ký tự đặc biệt.
+
+Cài đặt: import string
+TensorFlow (tf): Một thư viện học sâu (deep learning) mạnh mẽ được sử dụng để xây dựng và huấn luyện các mô hình học máy.
+
+Cài đặt: import tensorflow as tf
+Matplotlib (plt): Thư viện vẽ đồ họa 2D, thường được sử dụng để tạo biểu đồ và hình ảnh trong Python.
+
+Cài đặt: import matplotlib.pyplot as plt
+
+Keras:
+
+Sequential: Lớp để xây dựng các mô hình học sâu theo dạng tuần tự.
+Dense, Dropout, Activation, Flatten: Các lớp trong mô hình học sâu.
+Conv2D, MaxPooling2D: Các lớp dành cho mạng nơ-ron tích chập (CNN), thường dùng trong xử lý ảnh.
+Cài đặt: from keras.models import Sequential, from keras.layers import Dense, Dropout, Activation, Flatten, from keras.layers import Conv2D, MaxPooling2D
+
+Scikit-learn (sklearn):
+
+train_test_split: Phương thức chia bộ dữ liệu thành tập huấn luyện và kiểm tra.
+to_categorical: Chuyển đổi các nhãn (labels) thành dạng one-hot encoding.
+confusion_matrix, classification_report: Các hàm để tính toán ma trận nhầm lẫn và báo cáo phân loại.
+label_binarize: Biến các nhãn thành dạng nhị phân cho các bài toán phân loại đa lớp.
+roc_curve, auc: Các hàm dùng để vẽ đường cong ROC và tính toán diện tích dưới đường cong (AUC).
+Cài đặt: from sklearn.model_selection import train_test_split, from keras.utils import to_categorical, from sklearn.metrics import confusion_matrix, classification_report, from sklearn.preprocessing import label_binarize, from sklearn.metrics import roc_curve, auc
+Google Colab (google.colab): Dùng để kết nối với Google Drive, để tải lên và lưu trữ dữ liệu khi làm việc trong môi trường Google Colab.
+
+Cài đặt: from google.colab import drive
+Imbalanced-learn (imblearn): Thư viện giúp xử lý các tập dữ liệu không cân bằng (imbalanced datasets).
+
+SMOTE: Kỹ thuật tăng cường dữ liệu bằng cách tạo ra các mẫu mới cho lớp thiểu số.
+Cài đặt: from imblearn.over_sampling import SMOTE
+Seaborn (sns): Thư viện vẽ đồ thị thống kê, thường được sử dụng với Matplotlib để tạo ra các biểu đồ đẹp mắt.
+
+Cài đặt: import seaborn as sns
